@@ -7,16 +7,16 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", 12345))
-    API_HASH = os.getenv("API_HASH", "")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+    API_ID = int(os.getenv("API_ID", "9411723"))
+    API_HASH = os.getenv("API_HASH", "30fa091455c0548d77dc254f0bb705b0")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5496693865:AAEsyCi-tFpsDID-0X0zFrZjfK_DqF-1n08")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "MdiskSearchRobot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", -100))
-    BOT_USERNAME = os.getenv("BOT_USERNAME")
-    BOT_OWNER = int(os.getenv("BOT_OWNER"))
-#    OWNER_USERNAME = os.getenv("OWNER_USERNAME")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL")
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", -1001800683868))
+    BOT_USERNAME = os.getenv("Mdisksearch_Tgbot")
+    BOT_OWNER = int(os.getenv("875770605"))
+#    OWNER_USERNAME = os.getenv("AmanReDX")
+    BACKUP_CHANNEL = os.getenv("mbcne")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", '''Hᴇʏ Bᴜᴅᴅʏ! 😃
 
